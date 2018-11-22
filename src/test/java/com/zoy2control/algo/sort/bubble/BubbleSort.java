@@ -26,6 +26,7 @@ public class BubbleSort {
         if (null != arr) {
             int len = arr.length;
             int tmp = Integer.MIN_VALUE;
+
             long begin = System.currentTimeMillis();
             for (int i = 0; i < len; i++) {
                 for (int j = 0; j < len - 1 - i; j++) {
